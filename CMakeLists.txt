@@ -52,6 +52,8 @@ ExternalProject_Add(
     INSTALL_COMMAND ""
 )
 
+find_package(Python3 COMPONENTS Interpreter Development REQUIRED)
+
 # Compile C bindings
 find_package(pybind11 REQUIRED)
 
