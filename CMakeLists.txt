@@ -57,7 +57,7 @@ find_package(Python3 COMPONENTS Interpreter Development REQUIRED)
 # Compile C bindings
 find_package(pybind11 REQUIRED)
 
-set(TARGET_NAME pyrte_rrtmgp)
+set(TARGET_NAME rte_rrtmgp)
 set(SOURCES ${CMAKE_SOURCE_DIR}/pybind_interface.cpp)
 
 pybind11_add_module(${TARGET_NAME} ${SOURCES})
@@ -105,4 +105,4 @@ elseif(APPLE)
 endif()
 
 # The install directory is the output (wheel) directory
-install(TARGETS pyrte_rrtmgp DESTINATION pyrte_rrtmgp)
+install(TARGETS rte_rrtmgp DESTINATION pyrte_rrtmgp)
