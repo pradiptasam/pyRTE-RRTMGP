@@ -3,7 +3,7 @@ from typing import Tuple
 import numpy as np
 import numpy.typing as npt
 
-from pyrte_rrtmgp.pyrte_rrtmgp import (
+from rte_rrtmgp import (
     rte_lw_solver_2stream,
     rte_lw_solver_noscat,
     rte_sw_solver_2stream,

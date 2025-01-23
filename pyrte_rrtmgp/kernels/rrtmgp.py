@@ -3,7 +3,7 @@ from typing import Tuple
 import numpy as np
 import numpy.typing as npt
 
-from pyrte_rrtmgp.pyrte_rrtmgp import (
+from rte_rrtmgp import (
     rrtmgp_compute_Planck_source,
     rrtmgp_compute_tau_absorption,
     rrtmgp_compute_tau_rayleigh,

@@ -3,7 +3,7 @@ import copy
 import numpy as np
 import pytest
 
-import pyrte_rrtmgp.pyrte_rrtmgp as py
+import rte_rrtmgp as py
 
 #####################
 ## test_zero_array ##

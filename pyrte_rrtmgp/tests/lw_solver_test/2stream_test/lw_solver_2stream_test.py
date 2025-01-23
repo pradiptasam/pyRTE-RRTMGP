@@ -5,7 +5,7 @@ import zipfile
 
 import numpy as np
 
-import pyrte_rrtmgp.pyrte_rrtmgp as py
+import rte_rrtmgp as py
 
 
 def test_lw_solver(request):
